@@ -56,7 +56,7 @@ logging:
   file:
     name: ./logs/local-${spring.application.name}.log
 
-#springdoc: http://localhost:8080/webjars/swagger-ui/index.html#/
+#springdoc: http://localhost:8088/webjars/swagger-ui/index.html#/
 springdoc:
   swagger-ui:
     path: /swagger-ui.html

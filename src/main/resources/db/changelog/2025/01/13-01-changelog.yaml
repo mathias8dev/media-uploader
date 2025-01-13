@@ -34,7 +34,7 @@ databaseChangeLog:
               - column:
                   name: uploaded_by
                   type: VARCHAR(255)
-                  defaultValueComputed: "anonymous"
+                  defaultValue: "anonymous"
               - column:
                   name: name
                   type: VARCHAR(255)

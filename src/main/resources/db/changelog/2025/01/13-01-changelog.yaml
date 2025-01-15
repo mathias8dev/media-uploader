@@ -6,7 +6,7 @@ databaseChangeLog:
       preConditions:
         - not:
             tableExists:
-              tableName: factories
+              tableName: media
       changes:
         # Media
         - createTable:

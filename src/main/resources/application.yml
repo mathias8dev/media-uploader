@@ -62,12 +62,8 @@ springdoc:
     path: /swagger-ui.html
 
 media-uploader:
-  s3:
-    accessKey: 1
-    secretKey: 1
-    bucketName: 1
   files-download-path: /api/data/files/download
   upload:
-    dir: uploads
+    dir: media
 
 
